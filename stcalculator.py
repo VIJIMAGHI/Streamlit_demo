@@ -9,7 +9,7 @@ if st.button("calculate"):
 		result=num1-num2
 	elif opertaions=="mul":
 		result=num1*num2
-	elif operations=="div"
+	elif operations=="div":
 		result=num1/num2 if num2!=0 else "cannot divide"
 st.success(f"result is {result}")
 	
