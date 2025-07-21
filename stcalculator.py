@@ -7,7 +7,7 @@ if st.button("calculate"):
 		result=num1+num2
 	elif operations=="sub":
 		result=num1-num2
-	elif opertaions=="mul":
+	elif operations=="mul":
 		result=num1*num2
 	elif operations=="div":
 		result=num1/num2 if num2!=0 else "cannot divide"
