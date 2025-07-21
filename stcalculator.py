@@ -1,7 +1,7 @@
 import streamlit as st
 num1= st.number_input("enter num1")
 num2=st.number_input("enter num2")
-operations=st.selectionbox("operation select:",["add","sub","mul","div"])
+operations=st.selectbox("operation select:",["add","sub","mul","div"])
 if st.button("calculate"):
 	if operations=="add":
 		result=num1+num2
